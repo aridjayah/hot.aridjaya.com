@@ -329,13 +329,12 @@ objetos[27] = "./rand/28.jpg";
 objetos[28] = "./rand/29.jpg";
 objetos[29] = "./rand/30.jpg";
 
-var a = Math.floor(Math.random() * objetos.length);
+var num = Math.floor(Math.random() * objetos.length);
 
 function aleatorio() {
   document.images.src = objetos[a];
 }
 
-function thumbnail() {
-  document.getElementById("image_text").innerHTML = <img src='./rand/30.jpg'></img>;
-  // document.getElementById("title").innerHTML = citas[alea];
-}
+var num = Math.floor(Math.random() * 10 + 1);
+randomimage = "pictures/number" + num + ".jpg";
+document.getElementById('sample').src = randomImage;
