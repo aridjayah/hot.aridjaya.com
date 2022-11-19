@@ -337,5 +337,5 @@ function aleatorio() {
 
 function thumbnail() {
   document.getElementById("image_text").innerHTML = <img src='./rand/30.jpg'></img>;
-  document.getElementById("title").innerHTML = citas[alea];
+  // document.getElementById("title").innerHTML = citas[alea];
 }
