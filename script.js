@@ -1,0 +1,34 @@
+// random image
+var objetos = new Array;
+objetos[0] = "<img src='./rand/01.jpg' />";
+objetos[1] = "<img src='./rand/02.jpg' />";
+objetos[2] = "<img src='./rand/03.jpg' />";
+objetos[3] = "<img src='./rand/04.jpg' />";
+objetos[4] = "<img src='./rand/05.jpg' />";
+objetos[5] = "<img src='./rand/06.jpg' />";
+objetos[6] = "<img src='./rand/07.jpg' />";
+objetos[7] = "<img src='./rand/08.jpg' />";
+objetos[8] = "<img src='./rand/09.jpg' />";
+objetos[9] = "<img src='./rand/10.jpg' />";
+objetos[10] = "<img src='./rand/11.jpg' />";
+objetos[11] = "<img src='./rand/12.jpg' />";
+objetos[12] = "<img src='./rand/13.jpg' />";
+objetos[13] = "<img src='./rand/14.jpg' />";
+objetos[14] = "<img src='./rand/15.jpg' />";
+objetos[15] = "<img src='./rand/16.jpg' />";
+objetos[16] = "<img src='./rand/17.jpg' />";
+objetos[17] = "<img src='./rand/18.jpg' />";
+objetos[18] = "<img src='./rand/19.jpg' />";
+objetos[19] = "<img src='./rand/20.jpg' />";
+objetos[20] = "<img src='./rand/21.jpg' />";
+objetos[21] = "<img src='./rand/22.jpg' />";
+objetos[22] = "<img src='./rand/23.jpg' />";
+objetos[23] = "<img src='./rand/24.jpg' />";
+objetos[24] = "<img src='./rand/25.jpg' />";
+objetos[25] = "<img src='./rand/26.jpg' />";
+objetos[26] = "<img src='./rand/27.jpg' />";
+objetos[27] = "<img src='./rand/28.jpg' />";
+objetos[28] = "<img src='./rand/29.jpg' />";
+objetos[29] = "<img src='./rand/30.jpg' />";
+
+var a = Math.floor(Math.random() * objetos.length);
