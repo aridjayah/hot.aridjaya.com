@@ -205,8 +205,8 @@ img.mcimg_v {
     font-size: 17px;
     line-height: 17px;
     font-style: normal;
-    text-decoration: none;
-    color: #3f3f3f;
+    text-decoration: none !important;
+    color: #3f3f3f !important;
     font-family: Roboto;
 }
 
